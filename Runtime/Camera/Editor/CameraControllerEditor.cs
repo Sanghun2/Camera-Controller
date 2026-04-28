@@ -12,8 +12,8 @@ namespace BilliotGames
             base.OnInspectorGUI();
 
             var _script = (CameraController)target;
-            if (GUILayout.Button("Calculate Offset")) {
-                _script.CalculateOffset();
+            if (GUILayout.Button("Calculate Offset Between Target")) {
+                _script.CalculateOffsetBetweenTarget();
             }
         }
     }

@@ -1,6 +1,6 @@
 ﻿{
   "name": "com.billiotgames.cameracontroller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Camera Controllers",
   "description": "Camera를 Control하는 기능을 하는 패키지입니다.",
   "unity": "6000.2",

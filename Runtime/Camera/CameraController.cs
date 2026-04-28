@@ -2,12 +2,13 @@
 
 namespace BilliotGames
 {
+    [RequireComponent(typeof(Camera))]
     public class CameraController : MonoBehaviour
     {
         [SerializeField] Transform followTarget;
         [SerializeField] Vector3 offest;
 
-        public void CalculateOffset() {
+        public void CalculateOffsetBetweenTarget() {
             if (followTarget != null) {
                 offest = transform.position - followTarget.position;
             }
